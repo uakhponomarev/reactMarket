@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Mansalva', cursive !important;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    background-image: url('bgi.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    text-align: center;
+}

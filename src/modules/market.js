@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-console.log(React);
-
-class Market {
+import './market.css';
+import Cart from './cart';
+class Market extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -13,13 +12,16 @@ class Market {
         return (
             <div className='market'>
                 <div className='market-header'>
+                    <h1>Market</h1>
                 </div>
                 <div className='market-carts-holder'>
+                    <Cart />
                 </div>
             </div >
         );
     }
 }
+export default Market;
 
 
 
@@ -28,4 +30,3 @@ class Market {
 
 
 
-ReactDOM.render(<Market />, document.getElementById('root'));
